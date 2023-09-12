@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input_text {
+  border-radius: 16px;
+  color: var(--main-color);
+  border: 1px solid #c1c0c6;
+  padding: 15px 16px;
+  height: 48px;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  background-color: transparent;
+
+  &::placeholder {
+    color: currentColor;
+  }
+}
+
+.note {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  color: var(--main-color-60);
+  a {
+    text-decoration: underline;
+  }
+}

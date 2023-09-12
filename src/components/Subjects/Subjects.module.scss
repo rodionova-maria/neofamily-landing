@@ -1,0 +1,120 @@
+.subjects {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.list {
+  border-radius: 27.931px;
+  background: #fff;
+  width: 576px;
+  padding: 28px 20px;
+  display: flex;
+  gap: 12px 18px;
+  flex-wrap: wrap;
+
+  a {
+    border-radius: 162.983px;
+    border: 2.163px solid #fff;
+    display: inline-flex;
+    padding: 15.866px 22px;
+    transition: 150ms ease;
+    font-size: 17.308px;
+    font-weight: 700;
+    line-height: 17.308px;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 17px;
+      height: 17px;
+      background: var(--main-color) url(../../../public/union.svg) center center
+        no-repeat;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+    }
+
+    &:nth-child(1) {
+      background-color: #cde0a4;
+    }
+    &:nth-child(2) {
+      background-color: #d4ddee;
+    }
+    &:nth-child(3) {
+      background-color: #f9e48a;
+    }
+    &:nth-child(4) {
+      background-color: #b3d4e5;
+    }
+    &:nth-child(5) {
+      background-color: #acd5b7;
+    }
+    &:nth-child(6) {
+      background-color: #f5c6aa;
+    }
+    &:nth-child(7) {
+      background-color: #76c1c1;
+    }
+    &:nth-child(8) {
+      background-color: #f4be9a;
+    }
+    &:nth-child(9) {
+      background-color: #dbdbdb;
+    }
+    &:nth-child(10) {
+      background-color: #7cb8e0;
+    }
+    &:nth-child(11) {
+      background-color: #a3d8af;
+    }
+    &:nth-child(12) {
+      background-color: #b3d4e5;
+    }
+    &:hover {
+      box-shadow: 0px 1.44233px 7.9328px -2.88465px rgba(0, 0, 0, 0.19);
+    }
+  }
+}
+
+.text {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.description {
+  color: var(--main-color-80);
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  max-width: 440px;
+  margin-top: 24px;
+}
+
+.slogan {
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  max-width: 340px;
+  position: relative;
+}
+
+.spring {
+  position: absolute;
+  left: -160px;
+  top: -30px;
+}

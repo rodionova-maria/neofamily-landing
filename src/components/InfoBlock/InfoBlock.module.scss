@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.direction_reverse {
+  flex-direction: row-reverse;
+}
+
+.text {
+  flex-basis: 528px;
+}
+
+.title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.description {
+  color: var(--main-color-80);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-top: 24px;
+}
+
+.button {
+  margin-top: 56px;
+}
+
+.img {
+  flex-basis: 634px;
+}

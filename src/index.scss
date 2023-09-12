@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Nunito:wght@500&display=swap');
+
+:root {
+  --main-color: #302a3e;
+  --main-color-80: rgba(48, 42, 62, 0.8);
+  --main-color-60: rgba(48, 42, 62, 0.6);
+  --main-color-hover: #1c162c;
+  --blue-link: #2188f6;
+  --white: #fff;
+  --black: #000;
+  --transition-duration: 150ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+body {
+  background: var(--white);
+  color: var(--main-color);
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex-basis: 528px;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  right: 67.883px;
+  top: 5px;
+}
+
+.title {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  position: relative;
+}
+
+.description {
+  color: var(--main-color-80);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+  margin-top: 32px;
+}
+
+.buttons {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+}
+
+.img {
+  flex-basis: 634px;
+}
