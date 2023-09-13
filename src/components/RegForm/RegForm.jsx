@@ -1,4 +1,5 @@
 import Button from '../Button/Button'
+import Input from '../Input/Input'
 import s from './RegForm.module.scss'
 
 const RegForm = () => {
@@ -6,13 +7,9 @@ const RegForm = () => {
     <div className={s.form}>
       <div className={s.title}>Регистрируйся, чтобы начать обучение</div>
       <div className={s.controls}>
-        <input type='email' placeholder='Email' className={s.input_text} />
-        <input type='password' placeholder='Пароль' className={s.input_text} />
-        <input
-          type='password'
-          placeholder='Пароль еще раз'
-          className={s.input_text}
-        />
+        <Input type='email' placeholder='Email' />
+        <Input type='password' placeholder='Пароль' />
+        <Input type='password' placeholder='Пароль еще раз' />
       </div>
       <Button size='big' type='primary'>
         Зарегистрироваться

@@ -1,4 +1,5 @@
 import s from './Subjects.module.scss'
+import { ReactComponent as ImgSpring } from '../../assets/decor/spring2.svg'
 
 const Subjects = () => {
   return (
@@ -26,7 +27,7 @@ const Subjects = () => {
         </div>
         <div className={s.slogan}>
           Выбирай предмет и переходи в Банк заданий прямо сейчас!
-          <img src='./spring2.svg' alt='' className={s.spring} />
+          <ImgSpring className={s.spring} />
         </div>
       </div>
     </section>
